@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student details</title>
+
+<body>
+<style>
+    header h1{ 
+        color:#406700;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 0;
+        font-weight: bolder;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: aqua;
+    }
+    table{
+        background-color: rgb(211, 105, 30);
+        margin: 30px 20%;
+        padding: 30px;
+        position:absolute;
+        width: 800px;
+        height: 200px;
+        border: cornflowerblue;
+        box-shadow: 2px 2px 12px #908359, -1px -1px 8px #908359;
+    }
+    tr{
+        cursor: pointer;
+        transition: all .2s ease-in;
+        
+    }
+    thead,td{
+        padding: 12px;
+        text-align: center;
+        border-bottom: 2px solid #908359;
+    }
+    #head{
+        background-color:rgb(17, 0, 250);
+        color: rgb(240, 6, 170);
+    }
+    tr:hover{
+        background-color: lightcoral;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px #908359, -1px -1px 8px #908359 ;
+    }
+    button{
+        background-color:red;
+        color:yellowgreen;
+        margin: auto;
+        padding: 20px;
+   
+    }
+</style>
+<header>
+    <h1>Adarsh Vidhyalaya</h1>
+</header>
+<table>
+    
+
+         <thead id="head">
+            <td><b>ID</b></td>
+            <td><b> FNAME</b></td>
+            <td><b> LNAME</b></td>
+            <td><b> ADDRESS</b></td>
+            <td><b> CITY</b></td>
+            <td><b> CONTACT</b></td>
+            <td><b> EMAIL</b></td>
+            <td><b> CLASS</b></td>
+            <td><b> DIV</b></td>
+         </thead>
+        <tr>
+           <td> 101</td>
+            <td>vivek</td>
+            <td>chudasama</td>
+            <td>varachha</td>
+            <td rowspan="3"> surat</td>
+            <td>1111111111</td>
+            <td>v29@gmail.com</td>
+            <td rowspan="5">fybca</td>
+            <td>1</td>
+        </tr>
+        <tr >
+            <td> 102</td>
+            <td >bhavesh</td>
+            <td>gathiya</td>
+            <td>amroli</td>
+        
+            <td>5555555555</td>
+            <td>b79@gmail.com</td>
+            <td>2</td>
+        </tr>
+
+        <tr >
+            <td> 103</td>
+            <td>rahul</td>
+            <td>nanera</td>
+            <td>punagam</td>
+        
+            <td>3333333333</td>
+            <td>r21@gmail.com</td>
+            <td>1</td>
+        </tr>
+        <tr >
+            <td> 104</td>
+            <td>manish</td>
+            <td>jethva</td>
+            <td>khodiyarnagar</td>
+            <td rowspan="2">ahmedabad</td>
+            <td>44444444444</td>
+            <td>m45@gmail.com</td><td>3</td>
+        </tr>
+        <tr>
+            <td> 105</td>
+            <td>tushar</td>
+            <td>shah</td>
+            <td>bapunagar</td>
+                
+            <td>2222222222</td>
+            <td>t30@gmail.com</td>
+            <td>2</td>
+        </tr>
+        <a href="demo.html">
+        <button> BACK </button>
+        </a>
+</table>
+</body>
+</head>
+</html>

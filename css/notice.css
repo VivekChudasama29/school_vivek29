@@ -1,0 +1,61 @@
+h1,h2{
+     text-align: center;
+     margin-bottom: 10px;
+     padding: 5px;
+}
+*{
+    margin: 0; padding: 0; 
+}
+header h1{
+    text-transform: uppercase;
+    margin: 20px 0;
+    background-color: rgb(238, 255, 4);
+    padding: 15px;
+    color: darkmagenta;
+
+}
+h2 button{
+    font-size: x-large;
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+    background:linear-gradient(57deg,orange,green);
+    color: rgb(252, 0, 0);
+}
+.red{
+   display: inline-block;
+   margin: 10px;
+   width: 20%;
+   padding: 10px;
+   background:lightgreen;
+   border: 5px solid blue;
+
+}
+.red h2{
+     color:fuchsia;
+     font-weight: bolder;
+     font-size:xx-large;
+}
+.red p{
+    color:chocolate;
+    font-weight: bolder;
+}
+
+.green{
+    display: inline-block;
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    background:rgb(144, 238, 238);
+    border: 5px solid rgb(243, 239, 6);
+ 
+ }
+ .green h2{
+      color:green;
+      font-weight: bolder;
+      font-size:xx-large;
+ }
+ .green p{
+     color:rebeccapurple;
+     font-weight: bolder;
+ }

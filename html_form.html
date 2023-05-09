@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+   
+
+    <style>
+        body{
+            background: linear-gradient(57deg,lightpink,lightblue);
+        }
+        .myform{
+            margin:100px 550px;
+            padding: 20px;
+            background-color:orangered;
+            
+        }
+
+        h2{
+            padding: 30px;
+            text-transform: uppercase;
+            font-size: x-large;
+            font-weight: bolder;
+            color: blue;
+            background-color: chartreuse;
+            text-align: center;
+        }
+        b{
+            color: darkblue;
+
+        }
+        .rd{
+            width: 50%;
+        }
+        input{
+            width:95%;
+            padding: 10px;
+        }
+        button{
+            padding: 10px;
+            width: 80%;
+            margin:40px;
+            color:crimson;
+            background-color:yellow;
+        }
+        button:hover{
+            color: navy;
+            background:linear-gradient(57deg,green,lightgreen);
+        }
+    </style>
+</head>
+<body>
+    <div class="myform">
+        <h2>Registration Form</h2><br>
+    <form name="myform" method="post" action="#" autocomplete="on">
+        
+        <b>FNAME :</b>
+        <input type="text" name="fname" required><br><br><br>
+        <b>LNAME :</b>
+        <input type="text"  name="lname" required><br><br><br>
+        <b>PHONE NO :</b>
+        <input type="tel" name="num" required><br><br><br>
+        <b>BOD :</b>
+        <input type="date" name="bod" required><br><br><br>
+        <b>GENDER :</b><br>
+        MALE<input type="radio" value="male" class="rd" name="gender" checked><br>
+        FEMALE<input type="radio" value="female" class="rd" name="gender"> <br> <br><br>
+        <b>SID :</b>
+        <input type="number" name="rno" required ><br><br><br>
+        <b>E-MAIL :</b>
+        <input type="email" name="email" required><br><br><br>
+        <b>PASSWORD :</b>
+        <input type="password" name="ps" id="pas" required><br><br><br>
+        <b>CITY :</b>
+        <input type="text" name="ct" required><br><br><br>
+        <b>HOBBIES :</b>
+        <input type="text" name="hb" required><br><br><br>
+        <b>COLOR :</b>
+        <input type="color" name="col" required><br><br><br>
+        <b>NATINALITY :</b>
+        <input type="text" name="nation" required><br><br><br>
+
+        <button type="submit">SUBMIT</button>
+        <a  href="demo.html">
+        <button type="button">BACK</button>
+        </a>
+    </form>
+    </div>
+</body>
+</html>
